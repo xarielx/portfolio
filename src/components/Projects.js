@@ -82,11 +82,11 @@ class Projects extends Component {
 
     render() {
         return (
-            <div>
-                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>Django</Tab>
-                    <Tab>React</Tab>
-                    <Tab>Java</Tab>
+            <div className="prbody">
+                <Tabs className="tabBody" style={{ padding: "0px" }} activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                    <Tab style={{ color: "white" }} className="tabsR">Django</Tab>
+                    <Tab style={{ color: "white" }} className="tabsR">React</Tab>
+                    <Tab style={{ color: "white" }} className="tabsR">Java</Tab>
                 </Tabs>
                 <Grid>
                     <Cell col={12}>

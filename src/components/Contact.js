@@ -25,20 +25,20 @@ class Contact extends Component {
                             <div className="contact-list">
                                 <List>
                                     <ListItem>
-                                        <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                        <ListItemContent className="listname" style={{ fontSize: '30px', fontFamily: 'Anton' }}>
                                             <i className="fa fa-phone-square" aria-hidden="true" />
                                             ‪(407) 308-5058‬
                                     </ListItemContent>
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                        <ListItemContent className="listname" style={{ fontSize: '30px', fontFamily: 'Anton' }}>
                                             <i className="fa fa-envelope" aria-hidden="true" />
                                             ariel@arielbarboza.com
                                     </ListItemContent>
                                     </ListItem>
 
                                     <ListItem>
-                                        <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
+                                        <ListItemContent className="listname" style={{ fontSize: '30px', fontFamily: 'Anton' }}>
                                             <i className="fa fa-skype" aria-hidden="true" />
                                             a.barboza@ufl.edu | arieltico
                                     </ListItemContent>
