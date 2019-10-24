@@ -5,14 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
-import { BrowserRouter } from 'react-router-dom';
-
-
+import { BrowserRouter, Switch } from 'react-router-dom';
 
 ReactDOM.render(
-
     <BrowserRouter>
-        <App />
+        <Switch>
+            <App />
+        </Switch>
     </BrowserRouter>
 
     , document.getElementById('root'));
