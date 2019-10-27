@@ -24,6 +24,7 @@ function App() {
                     </Header>
                     <Drawer title="My Portfolio">
                         <Navigation>
+                            <a href="/">Home</a>
                             <a href="/Resume">Resume</a>
                             <a href="/AboutMe">About Me</a>
                             <a href="/Projects">Projects</a>
