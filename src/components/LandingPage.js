@@ -8,7 +8,8 @@ class LandingPage extends Component {
     }
     render() { 
         return (
-            <div style={{width: "100%", margin: "auto"}}>
+            <div className="LandingPage">
+             {/* <div className="LandingPage" style={{width: "100%", margin: "auto"}}> */}
                 <Grid className="landingGrid">
                     <Cell col={12}>
                         <img src="./ari.jpg" alt="Ariel Barboza" className="Avatar" />
