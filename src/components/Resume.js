@@ -53,7 +53,7 @@ class Resume extends Component {
                         />
                         <hr style={{ borderTop: '3px solid #e22947' }} />
 
-                        <h2>Experience</h2>
+                        <h2>Experience</h2> 
 
                         <Experience
                             startYear={2019}
