@@ -31,7 +31,9 @@ class Resume extends Component {
                         <h5>Email</h5>
                         <p>ariel@arielbarboza.com</p>
                         <h5>LinkedIn</h5>
-                        <a href='https://www.linkedin.com/in/abarboza/' rel='noopener noreferrer' target='_blank'>https://www.linkedin.com/in/abarboza/</a>
+                        <a style={{ fontSize: "50px"}} href="https://www.linkedin.com/in/abarboza/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
