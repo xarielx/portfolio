@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-
+import { Helmet } from 'react-helmet'
 class Contact extends Component {
     render() {
         return (
             <div className="contact-body" >
+                <Helmet>
+                    <title>Contact - Ariel</title>
+                    <meta name="description" content="Ariel Barboza's contact information. tel:407-308-5058 " />
+                </Helmet>
                 <Grid className="contact-grid" >
                     <Cell col={6}>
                         <h2>Ariel Barboza</h2>

@@ -5,10 +5,15 @@ import './App.css';
 import Main from './components/main'
 //import { Link } from 'react-router-dom';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Helmet } from 'react-helmet'
 
 function App() {
     return (
         <div className="App">
+            <Helmet>
+                <title>Ariel Barboza</title>
+                <meta name="description" content="Ariel Barboza - Fullstack engineer - The best developer for all your programming needs." />
+            </Helmet>
             <div className="demo-big-content">
                 <Layout><div className="mobileName"><p><br />&nbsp;Ariel Barboza</p></div>
                     <Header className="header-color" title="My Portfolio" scroll>

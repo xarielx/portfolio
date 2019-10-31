@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import { Helmet } from 'react-helmet'
 
 class LandingPage extends Component {
     constructor(props) {
@@ -9,6 +10,10 @@ class LandingPage extends Component {
     render() {
         return (
             <div className="LandingPage">
+                <Helmet>
+                    <title>Ariel Barboza</title>
+                    <meta name="description" content="Ariel Barboza - Fullstack engineer - The best developer for all your programming needs." />
+                </Helmet>
                 <Grid className="landingGrid">
                     <Cell col={12}>
                         <img src="./ari.jpg" alt="Ariel Barboza" className="Avatar" /><br />

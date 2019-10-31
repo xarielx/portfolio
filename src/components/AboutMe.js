@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet'
 //import Skills from './skills';
 
 
@@ -10,6 +11,10 @@ class AboutMe extends Component {
     render() {
         return (
             <div className="aboutBack">
+                <Helmet>
+                    <title>About - Ariel</title>
+                    <meta name="description" content="Mentioning some of the projects I have worked on in different programming languages, skills, certifications and awards that I have" />
+                </Helmet>
                 <div className="aboutSkills">
                     <h3>NOTABLE PROJECTS</h3>
                     <p>Developed a 24-bit Image Editor, learned artificial intelligence programming and predicting behaviors by using Robocode and a high

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Helmet } from 'react-helmet'
 
 
 class Projects extends Component {
@@ -13,6 +14,10 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className="projects-grid">
+                    <Helmet>
+                        <title>Projects by Ariel</title>
+                        <meta name="description" content="List of Notable projects developed by Ariel Barboza - Fullstack engineer - The best developer for all your programming needs." />
+                    </Helmet>
                     {/* Project 1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(./python.png) center / cover' }} >Django Project</CardTitle>
