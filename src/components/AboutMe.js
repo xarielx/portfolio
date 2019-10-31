@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet'
+import ControlledCarousel from './carousel'
 //import Skills from './skills';
 
 
 class AboutMe extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+
+        }
     }
     render() {
         return (
@@ -34,6 +37,7 @@ class AboutMe extends Component {
                     <p>Army Achievement Medal, Good Conduct Medal, General George S. Patton Jr. Award (awarded to 1 soldier from 600+ soldiers), Excellence
                 in Armor (awarded to 10 soldiers out of 1200 soldiers), Global War on Terrorism.</p>
                 </div>
+                <div className="pics"><ControlledCarousel useState={this.useState} /></div>
             </div>
         );
     }
