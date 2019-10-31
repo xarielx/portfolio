@@ -72,7 +72,7 @@ height: 100%;
   border-radius: 10px;
 }
 .banner-text h1{
-  font-size: 44px;
+  font-size: 40px;
   padding-top: .5em;
   padding-bottom: .5em;
   color: white;
@@ -179,11 +179,13 @@ height: 100%;
 .aboutBack {
   padding: 30px;
   background: #121212;
-  color: greenyellow;
+  color: #bbbbbb;
   font-family: consolas;
+  letter-spacing: 0.5em;
 }
 .aboutBack h3 {
   color: #03DAC5;
+  padding-bottom: 1em;
   overflow: hidden; 
     border-right: .15em solid orange; 
     white-space: nowrap; 
@@ -300,11 +302,14 @@ height: 100%;
     color: white;
   }
   .banner-text h1 {
-    font-size: 15px;
+    font-size: 12px;
     border-right: 1px solid orange; 
     padding-top: 13px;
     padding-bottom: 26px;
     color: white;
+  }
+  .mobileSpace {
+    padding-top: 50px;
   }
   .contact-list i {
     font-size: 30px;
