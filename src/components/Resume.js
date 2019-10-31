@@ -15,7 +15,7 @@ class Resume extends Component {
                             <img
                                 src="/ari.jpg"
                                 alt="avatar"
-                                style={{ height: '200px' }}
+                                style={{ height: '200px', borderRadius: "15%"}}
                             />
                         </div>
 
@@ -27,9 +27,9 @@ class Resume extends Component {
                         <h5>Address</h5>
                         <p>Gainesville, Florida</p> 
                         <h5>Phone</h5>
-                        <p>(407) 308-5058</p>
+                        <p><a href="tel:407-308-5058">(407) 308-5058</a></p>
                         <h5>Email</h5>
-                        <p>ariel@arielbarboza.com</p>
+                        <p><a href="mailto:ariel@arielbarboza.com?Subject=Portfolio%20Contact" target="_top">ariel@arielbarboza.com</a></p>
                         <h5>LinkedIn</h5>
                         <a style={{ fontSize: "50px"}} href="https://www.linkedin.com/in/abarboza/" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-linkedin-square" aria-hidden="true"></i>
@@ -91,7 +91,11 @@ class Resume extends Component {
                         />
                         <Skills
                             skill="Java"
-                            progress={80}
+                            progress={85}
+                        />
+                        <Skills
+                            skill="Python"
+                            progress={55}
                         />
                         <Skills
                             skill="JavaScript"
@@ -99,16 +103,13 @@ class Resume extends Component {
                         />
                         <Skills
                             skill="React"
-                            progress={25}
+                            progress={45}
                         />
                         <Skills
                             skill="NodeJS"
-                            progress={25}
+                            progress={45}
                         />
-                        <Skills
-                            skill="Python"
-                            progress={35}
-                        />
+                        
 
 
                     </Cell>

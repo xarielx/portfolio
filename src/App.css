@@ -1,9 +1,19 @@
 .LandingPage {
     display: flex;
     position: static;
-  
 }
-
+span a {
+  color: white;
+}
+span a:hover {
+  color: #F09A9D;
+}
+p a{
+  color: white;
+}
+p a:hover{
+  color: #F09A9D;
+}
 .mdl-layout__content{
   background: #0F2027;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -50,16 +60,24 @@ height: 100%;
   background-color: black;
 }
 .banner-text{
-  background-color: black;
+  background-color: #121212;
   opacity: .6;
   width: 75%;
   margin: auto;
   border-radius: 10px;
 }
 .banner-text h1{
-  font-size: 66px;
+  font-size: 44px;
   padding-top: .2em;
   color: white;
+  overflow: hidden; 
+    border-right: .10em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
 }
 .banner-text hr{
   border-top: 5px dotted white;
@@ -83,6 +101,9 @@ height: 100%;
   color: white;
   font-size: 5em;
   padding: 5px;
+}
+.social-links i:hover {
+  color: #FF3F80
 }
 
 
@@ -149,7 +170,36 @@ height: 100%;
 }
 .aboutBack {
   padding: 30px;
+  background: #121212;
+  color: greenyellow;
+  font-family: consolas;
+  
 }
+.aboutBack h3 {
+  color: #03DAC5;
+  overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+.aboutBack h4 {
+  color: #BB86FC;
+  
+}
+/* .aboutBack p {
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+} */
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
@@ -157,6 +207,25 @@ height: 100%;
     
 
   }
+  .banner-text {
+    font-size: 15px;
+    padding: 1em;
+    color: white;
+  }
+  .banner-text h1 {
+    font-size: 15px;
+    border-right: 1px solid orange; 
+    padding-top: 13px;
+    padding-bottom: 26px;
+    color: white;
+  }
+  /* .animated {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	} */
   .contact-list i {
     font-size: 30px;
     color: white;
@@ -178,4 +247,18 @@ height: 100%;
 }
 .mdl-cell.mdl-cell--8-col.resume-right-col{
   border-radius: 40px;
+  background: #262833;
+  color: #FFFFFF;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }

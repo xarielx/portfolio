@@ -35,6 +35,9 @@ class LandingPage extends Component {
                                 <a href="http://youtube.com/xarielx506" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-youtube-square" aria-hidden="true"></i>
                                 </a>
+                                <a href="mailto:ariel@arielbarboza.com?Subject=Portfolio%20Contact" target="_top" rel="noopener noreferrer">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </a>
 
                             </div>
 

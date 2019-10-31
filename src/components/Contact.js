@@ -23,20 +23,20 @@ class Contact extends Component {
                                     <ListItem>
                                         <ListItemContent className="listname" style={{ fontSize: '20px', fontFamily: 'Anton' }}>
                                             <i className="fa fa-phone-square" aria-hidden="true" />
-                                            ‪(407) 308-5058‬
-                                    </ListItemContent>
+                                            ‪<a href="tel:407-308-5058">(407) 308-5058</a>
+                                        </ListItemContent>
                                     </ListItem>
                                     <ListItem>
                                         <ListItemContent className="listname" style={{ fontSize: '20px', fontFamily: 'Anton' }}>
                                             <i className="fa fa-envelope" aria-hidden="true" />
-                                            ariel@arielbarboza.com
-                                    </ListItemContent>
+                                            <a href="mailto:ariel@arielbarboza.com?Subject=Portfolio%20Contact" target="_top">ariel@arielbarboza.com</a>
+                                        </ListItemContent>
                                     </ListItem>
                                     <ListItem>
                                         <ListItemContent className="listname" style={{ fontSize: '20px', fontFamily: 'Anton' }}>
-                                            <i className="fa fa-skype" aria-hidden="true" />
-                                            a.barboza@ufl.edu
-                                    </ListItemContent>
+                                            <i className="fa fa-google-plus-official" aria-hidden="true" />
+                                            <a href="skype:arieltico?add">Ariel Barboza - G.Suite</a>
+                                        </ListItemContent>
                                     </ListItem>
                                 </List>
                             </div>
