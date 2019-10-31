@@ -19,7 +19,6 @@ class Contact extends Component {
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Software Engineer and recent graduate with a Bachelor of Science Degree in Computer Science from the University of Florida. Former United States Army soldier</p>
                     </Cell>
                     <Cell col={6}>
-                        <div className="mobileSpace"></div>
                         <div className="contact-square" >
                             <h2>Contact Me</h2>
                             <hr />
