@@ -9,10 +9,8 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 function App() {
     return (
         <div className="App">
-            {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
             <div className="demo-big-content">
-
-                <Layout>
+                <Layout><div className="mobileName"><p><br />&nbsp;Ariel Barboza</p></div>
                     <Header className="header-color" title="My Portfolio" scroll>
                         <Navigation>
                             <a href="/">Home</a>
@@ -22,7 +20,7 @@ function App() {
                             <a href="Contact">Contact</a>
                         </Navigation>
                     </Header>
-                    <Drawer title="My Portfolio">
+                    <Drawer title="My Portfolio" href="/">
                         <Navigation>
                             <a href="/">Home</a>
                             <a href="/Resume">Resume</a>
@@ -36,10 +34,7 @@ function App() {
                         <Main />
                         <div className="page-content" />
                     </Content>
-                </Layout>
-
-            </div>
-        </div>
+                </Layout></div></div>
     );
 }
 

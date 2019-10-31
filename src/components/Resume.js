@@ -34,6 +34,8 @@ class Resume extends Component {
                         <a style={{ fontSize: "50px"}} href="https://www.linkedin.com/in/abarboza/" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                                 </a>
+                                <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+                        <div className="resumeBu1"><button className="downloadResume"><a href="Resume.pdf" download>Download Resume</a></button><br /></div>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
                     </Cell>
                     <Cell className="resume-right-col" col={8}>

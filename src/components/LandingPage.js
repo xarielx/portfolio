@@ -9,10 +9,9 @@ class LandingPage extends Component {
     render() {
         return (
             <div className="LandingPage">
-                {/* <div className="LandingPage" style={{width: "100%", margin: "auto"}}> */}
                 <Grid className="landingGrid">
                     <Cell col={12}>
-                        <img src="./ari.jpg" alt="Ariel Barboza" className="Avatar" />
+                        <img src="./ari.jpg" alt="Ariel Barboza" className="Avatar" /><br />
                         <div className="banner-text">
                             <h1>Full Stack Software Engineer</h1>
                             <hr />
@@ -38,13 +37,12 @@ class LandingPage extends Component {
                                 <a href="mailto:ariel@arielbarboza.com?Subject=Portfolio%20Contact" target="_top" rel="noopener noreferrer">
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
                                 </a>
-
                             </div>
-
-
                         </div>
                     </Cell>
+                    <div className="resumeBu"><button className="downloadResume"><a href="Resume.pdf" download>Download Resume</a></button><br /></div>
                 </Grid>
+
             </div>
         );
     }
