@@ -39,7 +39,7 @@ class ControlledCarousel extends Component {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 h-50"
-                        src="army3.JPG"
+                        src="army3.jpg"
                         alt="Third slide"
                         style={{ width: "500px", height: "600px" }}
                     />
