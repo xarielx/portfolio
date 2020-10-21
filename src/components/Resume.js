@@ -80,12 +80,17 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-
+            <Education
+              startYear={2020}
+              endYear={2023}
+              schoolName="Cornell University"
+              schoolDescription="Master of Engineering in Systems Engineering"
+            />
             <Education
               startYear={2018}
               endYear={2019}
               schoolName="University of Florida"
-              schoolDescription="Bacherlor of Science Degree in Computer Science - GPA = 3.30"
+              schoolDescription="Bacherlor of Science Degree in Computer Science - GPA = 3.32"
             />
 
             <Education
@@ -97,47 +102,65 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Experience</h2>
+            <Experience
+              startYear={2019}
+              endYear={"Present"}
+              jobName="Lockheed Martin"
+            />
 
             <Experience
               startYear={2020}
-              jobName="Lockheed Martin"
-              jobDescription="Software Engineer LDP. Part of Lockheed Martin's Engineering Leadership Program."
+              endYear={"Present"}
+              jobName="Software Engineer, Leadership & Development Program"
+              jobDescription="Lead an Agile Scrum team of 15 developers as a Scrum Master and perform engineering and development changes as a
+                    Software Engineer on a project that integrates multiple components supporting full-lifecycle management and sustainment to
+                    more than 300,000+ fielded training aids, devices, and simulators. Use Jira, Slack, Postfacto, Git and Bitbucket to track bugs,
+                    features, progress and other tasking.
+                    • Engineered over 220 software solutions using SQL Server Integration Services (SSIS), SQL Server Reporting Services,
+                    • Oracle Databases, Microsoft SQL Server, and Tableau.
+                    • Led the transformation of 42 reports to more efficient software architecture resulting in a 40% decrease in DWH load time.
+                    • Enforced Kanban principles as a Scrum Master that resulted in reduction of failback rate by 20% in less than six weeks.
+                    • Coached new team members in Scrum best practices to decrease failback rate from 20% to 4.5% in three sprints.
+                    • Established team velocity metrics by incorporating capacity forecasting into sprint planning sessions.
+                    • Resolved a complex communication issue by reshaping team communication via implementing Slack, now the fourth most used Slack Channel at Lockheed Martin.
+                    • Decreased punt rate by 78% by instituting time-tracking tool, Jira leading to SOAR RMS-wide recognition."
             />
 
             <Experience
               startYear={2019}
               endYear={2019}
-              jobName="Lockheed Martin"
-              jobDescription="Software and Systems Engineering Intern. As a Software and System engineer intern, I worked as a member of an Agile team in support of bringing full-lifecycle management and sustainment to
-                            more than 300,000+ fielded training aids, devices, and simulators. Used Jira, Git and Bitbucket to track bugs, features, progress and other taskings.
-                            • Developed software fixes and added functionality to the system using Java/J2EE, SQL, and JavaScript.
-                            • Conducted systems integration and testing support.
-                            • Brainstorm with team members to develop new concepts and approaches to improve software functionality.
-                            • Acted as Project Manager for an intern competition where I developed a Python - Django Framework Web application on a mobile
-                            device, going through a fast-paced version of the systems development life cycle"
+              jobName="Software and Systems Engineering Intern"
+              jobDescription="Worked as a member of an Agile team to maintain and provide support for the software stack, design systems, analyze requirements, integrate and test software as both a Software and Systems Engineer
+              on a development program.
+                            • Developed 90+ software fixes and added functionality to the system using Java/J2EE, SQL, and JavaScript.
+                            • Tested the transition and full integration of 35 reports from CSV extraction to SSRS Reporting Services to make the reports
+more user friendly for the end customer.
+                            • Acted as Project Manager for an intern project to develop a Python – Django Framework Web application on a mobile
+device using the Systems Engineering Lifecycle."
             />
 
             <Experience
               startYear={2012}
               endYear={2015}
               jobName="United States Army"
-              jobDescription=" 19K M1 Armor Crewman, Enlisted Soldier/CPL Gunner. Secret Security Clearance. 2012-2015
-                            The M1 armor crewman leads, supervises and serves as a member of M1 armor unit in offensive and defensive combat operations. In addition, serves
-                            or assists on staff at battalion or higher level.
-                            • President of Better Opportunities for Single Soldiers, a volunteer assignment to improve the morale and welfare of 500+ single soldiers
-                            in the unit.
-                            • In charge of the primary needs and readiness of 3 soldiers in my unit, from payroll, to combat readiness and training of day to day operations.
-                            • Performed primary duties as gunner and secondary duties as Tank Commander.
-                            • Responsible for USD $6.2 million dollars of equipment."
+              jobDescription="19K M1 Armor Crewman, Enlisted Solider/CPL Gunner
+              Led, supervised, and served as a member of M1 Armor unit in offensive and defensive combat operations and supported the
+staffing, training, and scheduling of solider development programs for the battalion.
+                            • Volunteered as the President of Better Opportunities for Single Soldiers to improve the morale and welfare of 500+ soldiers
+through implementation of engagement events and programing.
+                            • Led three soldiers in the unit including basic needs, payroll, combat readiness and training of day-to-day operations.
+                            • Acted as Gunner and Tank Commander with ultimate responsibility for $6.2M in equipment"
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
             <Skills skill="C++" progress={100} />
-            <Skills skill="Java" progress={85} />
-            <Skills skill="Python" progress={55} />
-            <Skills skill="JavaScript" progress={50} />
-            <Skills skill="React" progress={45} />
-            <Skills skill="NodeJS" progress={45} />
+            <Skills skill="SQL" progress={100} />
+            <Skills skill="React" progress={87} />
+            <Skills skill="Angular" progress={82} />
+            <Skills skill="Java" progress={81} />
+            <Skills skill="Python" progress={79} />
+            <Skills skill="JavaScript" progress={78} />
+            <Skills skill="NodeJS" progress={65} />
           </Cell>
         </Grid>
       </div>
