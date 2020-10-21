@@ -17,9 +17,10 @@ class Contact extends Component {
             <h2>Ariel Barboza</h2>
             <img src="./ari.jpg" alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Software Engineer and recent graduate with a Bachelor of Science
-              Degree in Computer Science from the University of Florida. Former
-              United States Army soldier
+              Software Engineer and Scrum Master currently pursuing a Master of
+              Engineering in Systems Egineering from Cornell University,
+              currently possess a Bachelor of Science in Computer Science from
+              the University of Florida. Former United States Army soldier
             </p>
           </Cell>
           <Cell col={6}>
@@ -50,6 +51,22 @@ class Contact extends Component {
                         ariel@arielbarboza.com
                       </a>
                     </ListItemContent>
+                    <div
+                      class="LI-profile-badge"
+                      data-version="v1"
+                      data-size="medium"
+                      data-locale="en_US"
+                      data-type="vertical"
+                      data-theme="dark"
+                      data-vanity="abarboza"
+                    >
+                      <a
+                        class="LI-simple-link"
+                        href="https://www.linkedin.com/in/abarboza/en-us?trk=profile-badge"
+                      >
+                        Ariel Barboza
+                      </a>
+                    </div>
                   </ListItem>
                 </List>
               </div>
