@@ -42,20 +42,23 @@ class Resume extends Component {
                             }}
                         />
                         <p>
-                            I am a motivated business professional undergoing a
-                            Bachelor’s degree in Computer Science expecting to
-                            graduate in 2019. I have a talent for quickly
-                            mastering technology. I am diplomatic and tactful
-                            with professionals and non-professionals at all
-                            levels. I am accustomed to handling sensitive,
-                            confidential records. Demonstrated history of
-                            working in the corporate information technology
-                            field and military experience. I am flexible and
-                            versatile – able to maintain composure under
-                            pressure. Poised and competent with demonstrated
-                            ability to easily transcend cultural differences.
-                            Thrive in deadline-driven environments. Excellent
-                            team-building and leadership skills.
+                            I am a motivated business professional and Software
+                            Engineer that is currently pursuing a Master of
+                            Engineering Degree in Systems Engineering from
+                            Cornell University. I have a talent for quickly
+                            mastering technology and new programming languages
+                            and stacks. I am diplomatic and tactful with
+                            professionals and non-professionals at all levels. I
+                            am accustomed to handling sensitive, confidential
+                            records. Demonstrated history of working in the
+                            corporate information technology field and military
+                            experience. I am flexible and versatile – able to
+                            maintain composure under pressure. Poised and
+                            competent with demonstrated ability to easily
+                            transcend cultural differences. Thrive in
+                            deadline-driven environments. Excellent
+                            team-building and leadership skills. team-building
+                            and leadership skills.
                         </p>
                         <hr
                             style={{
