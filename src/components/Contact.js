@@ -11,6 +11,10 @@ class Contact extends Component {
                         name='description'
                         content="Ariel Barboza's contact information. tel:407-308-5058"
                     />
+                    <meta
+                        name='google-site-verification'
+                        content='5erQ6FfMwtttUcuZ94iiU4OEDMShqfMjG0gBqFhmMbE'
+                    />
                     <meta property='og:locale' content='en_US' />
                     <meta property='og:type' content='article' />
                     <meta property='fb:app_id' content='ID_APP_FACEBOOK' />

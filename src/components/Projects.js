@@ -30,6 +30,10 @@ class Projects extends Component {
                             name='description'
                             content='List of Notable projects developed by Ariel Barboza - Fullstack engineer - The best developer for all your programming needs.'
                         />
+                        <meta
+                            name='google-site-verification'
+                            content='5erQ6FfMwtttUcuZ94iiU4OEDMShqfMjG0gBqFhmMbE'
+                        />
                         <meta property='og:locale' content='en_US' />
                         <meta property='og:type' content='article' />
                         <meta property='fb:app_id' content='ID_APP_FACEBOOK' />

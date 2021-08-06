@@ -19,6 +19,10 @@ class AboutMe extends Component {
                     />
                     <meta property='og:locale' content='en_US' />
                     <meta property='og:type' content='article' />
+                    <meta
+                        name='google-site-verification'
+                        content='5erQ6FfMwtttUcuZ94iiU4OEDMShqfMjG0gBqFhmMbE'
+                    />
                     <meta property='fb:app_id' content='ID_APP_FACEBOOK' />
                 </Helmet>
                 <div className='aboutSkills'>
