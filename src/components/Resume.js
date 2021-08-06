@@ -10,11 +10,14 @@ class Resume extends Component {
         return (
             <div>
                 <Helmet>
-                    <title>Ariel Barboza</title>
+                    <title>Ariel Barboza - Resume</title>
                     <meta
                         name='description'
                         content='Ariel Barboza, Resume,  Experience, Education, Fullstack engineer The best developer for all your programming needs.'
                     />
+                    <meta property='og:locale' content='en_US' />
+                    <meta property='og:type' content='article' />
+                    <meta property='fb:app_id' content='ID_APP_FACEBOOK' />
                 </Helmet>
                 <Grid>
                     <Cell col={4}>
@@ -57,7 +60,7 @@ class Resume extends Component {
                             }}
                         />
                         <h5>Address</h5>
-                        <p>Gainesville, Florida</p>
+                        <p>Melbourne, Florida</p>
                         <h5>Phone</h5>
                         <p>
                             <a href='tel:407-308-5058'>(407) 308-5058</a>
@@ -116,14 +119,14 @@ class Resume extends Component {
                             startYear={2018}
                             endYear={2019}
                             schoolName='University of Florida'
-                            schoolDescription='Bacherlor of Science Degree in Computer Science - GPA = 3.32'
+                            schoolDescription='Bacherlor of Science Degree in Computer Science'
                         />
 
                         <Education
                             startYear={2016}
                             endYear={2017}
                             schoolName='Santa Fe College'
-                            schoolDescription="Associate in Art's Degree - GPA = 3.33"
+                            schoolDescription="Associate in Art's Degree"
                         />
                         <hr style={{ borderTop: '3px solid #e22947' }} />
 
@@ -181,14 +184,14 @@ through implementation of engagement events and programing.
                         />
                         <hr style={{ borderTop: '3px solid #e22947' }} />
                         <h2>Skills</h2>
-                        <Skills skill='C++' progress={100} />
-                        <Skills skill='SQL' progress={100} />
-                        <Skills skill='React' progress={87} />
-                        <Skills skill='Angular' progress={82} />
-                        <Skills skill='Java' progress={81} />
-                        <Skills skill='Python' progress={79} />
-                        <Skills skill='JavaScript' progress={78} />
-                        <Skills skill='NodeJS' progress={65} />
+                        <Skills skill='Python    ' progress={100} />
+                        <Skills skill='JavaScript' progress={100} />
+                        <Skills skill='NodeJS    ' progress={100} />
+                        <Skills skill='React     ' progress={100} />
+                        <Skills skill='Angular   ' progress={100} />
+                        <Skills skill='SQL       ' progress={100} />
+                        <Skills skill='C++       ' progress={82} />
+                        <Skills skill='Java      ' progress={81} />
                     </Cell>
                 </Grid>
             </div>
