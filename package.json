@@ -39,6 +39,6 @@
         ]
     },
     "devDependencies": {
-        "webpack-bundle-analyzer": "^3.6.0"
+        "webpack-bundle-analyzer": "^4.6.1"
     }
 }
