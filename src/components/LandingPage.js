@@ -26,11 +26,7 @@ class LandingPage extends Component {
                 </Helmet>
                 <Grid className='landingGrid'>
                     <Cell col={12}>
-                        <img
-                            src='./ari.jpg'
-                            alt='Ariel Barboza'
-                            className='Avatar'
-                        />
+                        <img src='./ari.jpg' alt='Ariel Barboza' className='Avatar' />
                         <div className='banner-text'>
                             <h1>Full Stack Software Engineer</h1>
                             <span style={{ color: 'white' }}>
@@ -40,13 +36,10 @@ class LandingPage extends Component {
                             </span>
 
                             <p>
-                                JavaScript | Python | SQL | React | NodeJS |
-                                HTML/CSS | Bootstrap | MongoDB | C++ | Java |
+                                JavaScript | Python | SQL | React | NodeJS | HTML/CSS |
+                                Bootstrap | MongoDB | C++ | Java |
                             </p>
-                            <div
-                                className='social-links'
-                                style={{ fontSize: '6px' }}
-                            >
+                            <div className='social-links' style={{ fontSize: '6px' }}>
                                 {/* Linked In */}
                                 <a
                                     href='https://www.linkedin.com/in/abarboza/'
@@ -96,22 +89,11 @@ class LandingPage extends Component {
                                     target='_top'
                                     rel='noopener noreferrer'
                                 >
-                                    <i
-                                        class='fa fa-envelope'
-                                        aria-hidden='true'
-                                    ></i>
+                                    <i class='fa fa-envelope' aria-hidden='true'></i>
                                 </a>
                             </div>
                         </div>
                     </Cell>
-                    <div className='resumeBu'>
-                        <button className='downloadResume'>
-                            <a href='Resume.pdf' download>
-                                Download Resume
-                            </a>
-                        </button>
-                        <br />
-                    </div>
                 </Grid>
             </div>
         );
